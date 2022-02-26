@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
         if($count == 1){  
             
-			header("Location: collegehome.html");
+			header("Location: post.html");
         }  
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>";  

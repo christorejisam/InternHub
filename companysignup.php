@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	
 	if($statement->execute()){
-		print "Hello " . $name . "!, you are signed in!";
+		
 	}else{
 		print $mysqli->error; 
 	}
