@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	$mysql_host = "localhost";
 	$mysql_username = "root";
-	$mysql_password = " ";
-	$mysql_database = "facebook1";
+	$mysql_password = "";
+	$mysql_database = "db";
 	
 	$name = $_POST['name']; 
 	$pass = $_POST['password'];

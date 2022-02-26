@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	$mysql_host = "localhost";
 	$mysql_username = "root";
-	$mysql_password = " ";
-	$mysql_database = "facebook1";
+	$mysql_password = "";
+	$mysql_database = "db";
 	
 	$name = $_POST['name']; 
 	$pass = $_POST['password'];
@@ -24,7 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
-            echo "<h1><center> Login successful </center></h1>";  
+            
+			header("Location: collegehome.html");
         }  
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>";  
