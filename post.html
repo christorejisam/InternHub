@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Contact Form Using HTML-CSS</title>
+    <!-- Google Fonts CDN Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="pstyles.css" />
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <h2>Post </h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="company link">company link<span class="star">*</span></label>
+          <input
+            type="link"
+            id="company link"
+            class="form-control"
+            placeholder="Enter company link"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="About company"
+            >About company&nbsp;<span class="optional">(optional)</span></label
+          >
+          <input
+            type="text"
+            id="About company"
+            class="form-control"
+            placeholder="Explan About Company"
+          />
+        </div>
+        <div class="form-group">
+          <label for="text">Job discription<span class="star">*</span></label>
+          <input
+            type="text"
+            id="text"
+            class="form-control"
+            placeholder="Enter Job discription"
+            required
+          />
+        </div>
+          <div class="form-group">
+            <label for="text">Skills Required<span class="star">*</span></label>
+            <input
+              type="text"
+              id="text"
+              class="form-control"
+              placeholder="Enter Skills Required"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="text">who can apply?<span class="star">*</span></label>
+            <input
+              type="text"
+              id="text"
+              class="form-control"
+              placeholder="Enter who can apply?"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="text">Perks<span class="star">*</span></label>
+            <input
+              type="text"
+              id="text"
+              class="form-control"
+              placeholder="perks"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="Number">Number of openings<span class="star">*</span></label>
+            <input
+              type="number"
+              id="Number"
+              class="form-control"
+              placeholder="Enter Number of openings"
+              required
+            />
+          </div>
+        <button class="submit-btn">send message</button>
+      </form>
+    </div>
+  </body>
+</html>
